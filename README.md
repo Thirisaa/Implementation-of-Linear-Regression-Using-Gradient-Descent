@@ -8,10 +8,12 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import dataset and compute cost value
+2. Calculate the gradient descent
+3. Find H(x) equation
+4. Plot cost function using gradient descent
+5. Plot profit prediction graph
+6. Check the prediction
 
 ## Program:
 ```
@@ -75,14 +77,18 @@ def predict(x,theta):
   return predictions[0]
 predict1=predict(np.array([1,3.5]),theta)*10000
 print("For population = 35,000,we predict a profit of $"+str(round(predict1,0)))
+predict2=predict(np.array([1,7]),theta)*10000
+print("For population = 70,000,we predict a profit of $"+str(round(predict2,0)))
 
 */
 ```
 
 ## Output:
 ![cost function using gradient descent](op_1_exp3.png)
+![cost](cost_op.png)
 ![profit prediction](op_2_exp3.png)
 ![sample prediction](op_3_ex3.png)
+![predict2](predict2.png)
 
 
 ## Result:
