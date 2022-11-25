@@ -85,7 +85,7 @@ print("For population = 70,000,we predict a profit of $"+str(round(predict2,0)))
 
 ## Output:
 ![scatter](op_graph.png)
-![value](comp_cost.png)
+
 ![cost](cost_op.png)
 ![cost function using gradient descent](op_1_exp3.png)
 ![profit prediction](op_2_exp3.png)
